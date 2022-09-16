@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainlogo {
+    background-size: contain;
+}
+.container{
+    padding-top: -50px;
+    margin-bottom: 20px;
+}
+nav ul li a {
+    background-color: black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 45%;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: wheat;
+}
+
+nav ul li a:hover{
+    background-color: #1F4690;
+}
+
+nav ul li :active{
+    background-color: palevioletred;
+}
+
+li{
+    text-decoration: none;
+    word-spacing: 40px;
+    float: right;
+    position: relative;
+    left: -10%;
+    margin-top: 70px;
+}
+
+.mainpicture{
+    height: 500px;
+    width: 100%;
+}
+.hauptbild{
+    background-size: contain;
+    height: 1000px;
+    padding-left: 10%;
+    width: 80%;
+    align-items: center;
+    filter: brightness(50px);
+}
+
+.opening-hours{
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+}
+
+.login, .signup{
+    border-radius: 0%;
+    background-color: antiquewhite;
+    color: black;
+    letter-spacing: 0px;
+    margin-right: -10px;
+}
+
+.time{
+    float: left;
+    margin-left: 500px;
+}
+.heading-opening{
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline black;
+}
