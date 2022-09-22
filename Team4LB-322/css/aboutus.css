@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainlogo {
+    background-size: contain;
+}
+.container{
+    padding-top: -50px;
+    margin-bottom: 20px;
+}
+nav ul li a {
+    background-color: black;
+    padding: 20px 25px 20px 25px;
+    border-radius: 30%;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: wheat;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    background-color: #1F4690;
+
+}
+
+nav ul li a:active{
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    word-spacing: 50px;
+    float: right;
+    position: relative;
+    left: -10%;
+    margin-top: 70px;
+    list-style: none;
+
+}
+
