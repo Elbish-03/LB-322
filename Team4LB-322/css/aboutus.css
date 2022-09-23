@@ -1,15 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
+/* Navigation bar */
+
 nav ul li a {
     background-color: black;
-    border-radius: 30%;
     padding: 20px 25px 20px 25px;
+    border-radius: 30%;
     margin-bottom: 100px;
     text-decoration: none;
     color: wheat;
-    font-size: large;
 }
 
 nav ul li a:hover{
@@ -17,13 +16,10 @@ nav ul li a:hover{
 
 }
 
-nav ul li a:active{
-    color: white;
+nav ul li :active{
+    background-color: palevioletred;
 }
-.container{
-    padding-top: -50px;
-    margin-bottom: 20px;
-}
+
 li{
     text-decoration: none;
     word-spacing: 50px;
@@ -34,33 +30,52 @@ li{
     list-style: none;
 
 }
-.login, .signup{
-    border-radius: 0%;
-    background-color: antiquewhite;
-    color: black;
-    letter-spacing: 0px;
-    margin-right: -10px;
+
+
+
+.mainlogo {
+    background-size: contain;
 }
-.container-1{
-padding-right: 35%;
-padding-left: 2cm;
+.container-logo{
+    padding-top: -50px;
+    margin-bottom: 20px;
+}
+
+.container-1 div{
+margin-right: 10%;
+margin-left: 2cm;
+padding-left: 5cm;
+padding-right: 5cm;
+padding-top: 10px;
+padding-bottom: 10px;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+
 }
 .container-1 h1{
     padding-left: 0cm;
+    text-decoration: underline;
 }
+
+
 .container-1 pre{
     padding-left: 0px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+.txt-aboutus{
+    color: white;
+}
+
 th{
 text-align: left;
 }
 .container-2{
     max-width: 1200px;
-    margin-left: 10%;
+    margin-left: 20%;
     background: white;
     overflow: auto;
     padding-bottom: 1cm;
+    text-align: center;
 }
 .container-2 img{
     width: 70%;
@@ -120,3 +135,117 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+
+body {
+    background: #fafafa url(https://jackrugile.com/images/misc/noise-diagonal.png);
+    color: #444;
+    font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+    text-shadow: 0 1px 0 #fff;
+
+  }
+  
+  strong {
+    font-weight: bold; 
+  }
+  
+  em {
+    font-style: italic; 
+  }
+  
+  table {
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px auto;
+    text-align: left;
+    width: 800px;
+  } 
+  
+  th {
+    background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;  
+  }
+  
+  th:after {
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+    content: '';
+    display: block;
+    height: 25%;
+    left: 0;
+    margin: 1px 0 0 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+  
+  th:first-child {
+    border-left: 1px solid #777;  
+    box-shadow: inset 1px 1px 0 #999;
+  }
+  
+  th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+  }
+  
+  td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+  }
+  
+  td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+  } 
+  
+  td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+  } 
+  
+  tr {
+    background: url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+  }
+  
+  tr:nth-child(odd) td {
+    background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+  }
+  
+  tr:last-of-type td {
+    box-shadow: inset 0 -1px 0 #fff; 
+  }
+  
+  tr:last-of-type td:first-child {
+    box-shadow: inset 1px -1px 0 #fff;
+  } 
+  
+  tr:last-of-type td:last-child {
+    box-shadow: inset -1px -1px 0 #fff;
+  } 
+  
+  tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #aaa;
+  }
+  
+  tbody:hover tr:hover td {
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 2rem;
+  }
+
+ 

@@ -3,31 +3,24 @@
     padding: 0;
 }
 
-.mainlogo {
-    background-size: contain;
-}
-.container{
-    padding-top: -50px;
-    margin-bottom: 20px;
-}
+/* Navigation bar */
+
 nav ul li a {
     background-color: black;
-    border-radius: 30%;
     padding: 20px 25px 20px 25px;
+    border-radius: 30%;
     margin-bottom: 100px;
     text-decoration: none;
     color: wheat;
-    font-size: large;
 }
-
 
 nav ul li a:hover{
     background-color: #1F4690;
 
 }
 
-nav ul li a:active{
-    color: white;
+nav ul li :active{
+    background-color: palevioletred;
 }
 
 li{
@@ -43,6 +36,15 @@ li{
 
 
 
+.mainlogo {
+    background-size: contain;
+}
+.container-logo{
+    padding-top: -50px;
+    margin-bottom: 20px;
+}
+
+
 .mainpicture{
     height: 500px;
     width: 100%;
@@ -55,9 +57,6 @@ li{
     align-items: center;
     filter: brightness(50px);
 }
-
-
-
 
 
 .container-1{
